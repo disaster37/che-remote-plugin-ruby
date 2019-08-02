@@ -7,7 +7,7 @@ ARG https_proxy
 
 RUN \
     apk add --update --no-cache build-base ruby-dev ruby-full ruby ruby-nokogiri bash &&\
-    gem install solargraph
+    gem install solargraph ruby-debug-ide
     
 
 
