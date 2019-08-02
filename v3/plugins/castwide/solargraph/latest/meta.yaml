@@ -1,0 +1,18 @@
+apiVersion: v2
+publisher: castwide
+name: ruby-vscode
+version: latest
+type: VS Code extension
+displayName: Ruby extension for Visual Studio Code
+title: Ruby extension for Visual Studio Code
+description: This VS Code extension provides support for Ruby https://marketplace.visualstudio.com/items?itemName=castwide.solargraph
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+repository: https://github.com/castwide/vscode-solargraph
+category: Language
+spec:
+  containers:
+  - image: webcenter/che-remote-plugin-ruby:latest
+    memoryLimit: "512Mi"
+    name: vscode-ruby
+  extensions:
+  - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/castwide/vsextensions/solargraph/0.20.0/vspackage
