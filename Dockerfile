@@ -6,7 +6,7 @@ ARG http_proxy
 ARG https_proxy
 
 RUN \
-    apk add --update --no-cache ruby-dev ruby-full ruby &&\
+    apk add --update --no-cache build-base ruby-dev ruby-full ruby &&\
     gem install solargraph
     
 
