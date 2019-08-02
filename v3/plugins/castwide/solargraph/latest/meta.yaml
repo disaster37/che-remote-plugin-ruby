@@ -15,4 +15,4 @@ spec:
     memoryLimit: "512Mi"
     name: vscode-ruby
   extensions:
-  - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/castwide/vsextensions/solargraph/0.20.0/vspackage
+  - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/rebornix/vsextensions/Ruby/0.24.2/vspackage
