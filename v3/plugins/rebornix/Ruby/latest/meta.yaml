@@ -1,13 +1,13 @@
 apiVersion: v2
-publisher: castwide
+publisher: rebornix
 name: ruby-vscode
 version: latest
 type: VS Code extension
 displayName: Ruby extension for Visual Studio Code
 title: Ruby extension for Visual Studio Code
-description: This VS Code extension provides support for Ruby https://marketplace.visualstudio.com/items?itemName=castwide.solargraph
+description: This VS Code extension provides support for Ruby https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby
 icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
-repository: https://github.com/castwide/vscode-solargraph
+repository: https://github.com/rubyide/vscode-ruby
 category: Language
 spec:
   containers:
