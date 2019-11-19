@@ -12,7 +12,7 @@ ENV \
     GROUP_ID=1724
 
 RUN \
-    apk add --update --no-cache build-base ruby-dev ruby-full ruby ruby-nokogiri bash &&\
+    apk add --update --no-cache build-base ruby-dev ruby-full ruby ruby-nokogiri zlib1g-dev bash &&\
     gem install solargraph ruby-debug-ide
 
 # Create default user for che
